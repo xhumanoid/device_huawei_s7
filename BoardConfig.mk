@@ -1,0 +1,29 @@
+#
+# Product-specific compile-time definitions.
+#
+
+TARGET_BOARD_PLATFORM := qsd8k
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno200
+
+TARGET_CPU_ABI := armeabi-v7a
+TARGET_CPU_ABI2 := armeabi
+TARGET_ARCH_VARIANT := armv7-a-neon
+ARCH_ARM_HAVE_TLS_REGISTER := true
+
+TARGET_NO_BOOTLOADER := true
+
+# camera
+USE_CAMERA_STUB := true
+
+# QCOM
+BOARD_USES_QCOM_HARDWARE := true
+BOARD_USES_QCOM_LIBS := true
+BOARD_USES_QCOM_LIBRPC := true
+
+BOARD_USES_GENERIC_AUDIO := true
+
+TARGET_BOOTLOADER_BOARD_NAME := s7
+
+BOARD_KERNEL_CMDLINE := console=ttyMSM2,115200n8 androidboot.hardware=qsd8k_s7
+BOARD_KERNEL_BASE := 0x20000000
+BOARD_PAGE_SIZE := 0x00000800
