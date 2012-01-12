@@ -2,7 +2,7 @@
 PRODUCT_RELEASE_NAME := s7
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/huawei/s7/device.mk)

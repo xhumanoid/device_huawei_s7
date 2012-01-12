@@ -23,3 +23,4 @@
 add_lunch_combo full_s7-eng
 add_lunch_combo full_s7-userdebug
 add_lunch_combo full_s7-user
+add_lunch_combo cm_s7-userdebug
