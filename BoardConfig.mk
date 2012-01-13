@@ -12,6 +12,9 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 
 TARGET_NO_BOOTLOADER := true
 
+# Make touchscreen work
+BOARD_USE_LEGACY_TOUCHSCREEN := true
+
 # camera
 USE_CAMERA_STUB := true
 
